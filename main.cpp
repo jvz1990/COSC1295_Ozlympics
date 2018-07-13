@@ -6,8 +6,8 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << endl;
 
+    // testing only
     auto c = new cyclist("a name", 28, data::states::nsw);
 
     cout << "age " << (int) c->get_age() << " name " << c->get_name() << " state " << c->get_state() << endl
